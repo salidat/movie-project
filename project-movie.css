@@ -1,0 +1,38 @@
+main {
+    margin: 0px;
+    width: 100%;
+}
+.new-of-season {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(75, 69, 69);
+    color: white;
+}
+.title-season {
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+.newitems {
+    font-weight: bold;
+}
+.section1-header {
+    display: flex;
+    justify-content: stretch;
+}
+.left-dir, .right-dir {
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.one, .two, .three, .four, .five {
+    display: flex;
+}
+
+
+
+
