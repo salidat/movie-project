@@ -75,11 +75,13 @@ a:hover {
    margin:10px;
 }
 
-.poster-wrapper {
+div.poster-wrapper {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 50px 60px 60px 60px;
+    margin-bottom: 0px;
+    margin-top: 20px
 }
 .first-section-posters {
    width:250px;
@@ -90,30 +92,6 @@ a:hover {
    margin-top:0;
 }
 
-
-
-
-/* start premier css */
-.view-all {
-    padding: 7px 12px;
-    border-radius: 5px;
-    background-color: darkgray;
-    color: white;
-  }
-  .expected-image-container {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-  }
-  .expected-image-container div img {
-      width: 200px;
-      height: 250px;
-  }
-  .expected-image-container p {
-      font-size: 14px;
-  }
-  
-/* end premier css   */
 
 /* new items Css starts */
 .new-items {
@@ -139,16 +117,41 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-top: 1px solid rgba(210,201,255,0.1);
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .second-section-posters {
    width:200px;
    height: 300px;
+   margin-bottom: 20px;
 }
 .postercaption {
    padding-top:2px;
    margin-top:0;
 }
+
+
+/* start premier css */
+.view-all {
+    padding: 7px 12px;
+    border-radius: 5px;
+    background-color: darkgray;
+    color: white;
+  }
+  .expected-image-container {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+  }
+  .expected-image-container div img {
+      width: 200px;
+      height: 250px;
+  }
+  .expected-image-container p {
+      font-size: 14px;
+  }
+  
+/* end premier css   */
+
 
 
 /* start footer css */
