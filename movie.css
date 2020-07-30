@@ -1,75 +1,6 @@
 body {
     font-family: Source Sans Pro;
-    margin: 0px;
-    background-color: #1B191F; /* Dark Grey */
-}
 
-/*START MAIN HEADER Sholpan*/ 
-.header {
-    background-color: #1B191F; /* Dark Grey */
-    color: white;
-    font-size: 25px;
-    display: flex;
-    position: fixed;
-    top: 0;
-    padding: 30px 10px;
-    width: 100%;
-    margin-top: -1%;
-    margin-right: auto;
-    margin-left: auto;
-    letter-spacing: 0,9px;
-    word-spacing: 30px;
-    margin-top: 0px;
-
-}
-.nav {
-    font-weight: normal;
-    font-size: 15px;
-    color: #BAB9BB; /* Light Grey */
-    color: #BAB9BB; /* Light Grey */
-}
-a:hover {
-    color: #FED80E; /* Yellow */
-}
-.search {
-    background-color: #232129; /* Grey */
-    font-weight: normal;
-    font-size: 15px;
-    color: #BAB9BB; /* Light Grey */
-    padding: 10px 25px;
-    border-radius: 8px;
-}
-.languages {
-    background-color: transparent;
-    color: #BAB9BB; /* Light Grey */
-}
-.signin {
-    background-color: transparent;
-    color: #BAB9BB; /* Light Grey */
-    padding: 10px 25px;
-    border-radius: 8px;
-    border: 2px solid #FED80E; /* Yellow */
-}
-
-.icon {
-    color: #BAB9BB; /* Light Grey */
-}
-/*END MAIN HEADER Sholpan*/ 
-
- main {
-    width: 100%;
-    margin:0px;
-}
-
-/*START NEW OF SEASON Alina*/
-.new-of-season {
-    background-color: rgb(57, 55, 55);
-    font-weight:lighter;
-    color:white;
-}
-.new-items-heading {
-   padding:40px 0 5px 60px;
-}
 
 .categories {
    margin:10px;
@@ -86,6 +17,7 @@ div.poster-wrapper {
 .first-section-posters {
    width:250px;
    height: 300px;
+
 }
 
 /*START MAIN HEADER Sholpan*/ 
@@ -138,6 +70,7 @@ a:hover {
     color: #BAB9BB; /* Light Grey */
 }
 /*END MAIN HEADER Sholpan*/ 
+
 
  main {
     width: 100%;
@@ -255,6 +188,7 @@ a:hover {
 }
 .new-items-heading {
    padding:40px 0 5px 60px;
+
 }
 .genre-nav {
    color:lightgray;
@@ -263,6 +197,7 @@ a:hover {
 .categories {
    margin:10px;
 }
+
 
 .poster-wrapper {
     display:flex;
@@ -517,3 +452,4 @@ a.footer-a {
 i.fa-arrow-up {
     color:  rgba(255,255,255,0.3);
 }
+
